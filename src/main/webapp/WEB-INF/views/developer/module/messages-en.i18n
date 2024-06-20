@@ -1,0 +1,39 @@
+# messages-en.i18n
+#
+# Copyright (C) 2012-2024 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+developer.module.form.title = Training module details
+developer.module.list.title = Listing your training modules
+
+developer.module.list.label.code=Code:
+developer.module.list.label.draftMode=Draft mode:
+developer.module.list.label.project=Project:
+
+developer.module.form.label.code = Code
+developer.module.form.label.creationMoment = Creation moment
+developer.module.form.label.details = Details
+developer.module.form.label.difficultyLevel = Difficulty level
+developer.module.form.label.updateMoment = Update moment
+developer.module.form.label.link = Link
+developer.module.form.label.totalTime = Total time
+developer.module.form.label.project = Project
+developer.module.form.label.developer = Developer
+
+developer.module.list.button.create= Create
+
+developer.module.form.button.training-sessions= Training Sessions
+developer.module.form.button.update=Update
+developer.module.form.button.delete=Delete
+developer.module.form.button.publish=Publish
+developer.module.form.button.create=Create
+
+developer.training-module.form.error.duplicated= This code belongs to another Training Module
+developer.training-module.form.error.invalid-update-date= Update date must be after creation date
+developer.training-module.form.error.without-sessions= There are not training sessions related to this module
+developer.training-module.form.error.must-be-published= All training sessions must be published

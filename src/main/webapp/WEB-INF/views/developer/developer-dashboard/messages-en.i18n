@@ -1,0 +1,20 @@
+# messages-en.i18n
+#
+# Copyright (C) 2012-2024 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+developer.developer-dashboard.form.title = Dashboard
+
+developer.dashboard.form.title.stats = Stats
+
+developer.dashboard.form.label.training-modules-with-update-moment= Training module with update moment
+developer.dashboard.form.label.training-sessions-with-link= Training sessions with link
+developer.dashboard.form.label.average-time-of-training-modules= Average total time of training modules
+developer.dashboard.form.label.deviation-time-of-training-modules= Deviation total time of training modules
+developer.dashboard.form.label.minimum-time-of-training-modules= Minimum total time of training modules
+developer.dashboard.form.label.maximum-time-of-training-modules= Maximum total time of training modules

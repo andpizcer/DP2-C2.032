@@ -1,0 +1,31 @@
+key,record-id,completeness,comment,registration-moment,responsible-person,key:contract,draft-mode
+#Testing the record-id
+progress-log-01,PG-A-0000,53.92,hola,2022/07/30 00:00,Arthur,contract-16,true
+progress-log-02,PG-A-0001,53.92,hola,2022/07/30 00:00,Arthur,contract-17,true
+progress-log-03,PG-JL-2940,53.92,hola,2022/07/30 00:00,Arthur,contract-18,true
+progress-log-04,PG-Z-9998,53.92,hola,2022/07/30 00:00,Arthur,contract-19,true
+progress-log-05,PG-ZZ-9999,53.92,hola,2022/07/30 00:00,Arthur,contract-20,true
+#Testing the completeness
+progress-log-06,PG-A-0002,0.01,hola,2022/07/30 00:00,Arthur,contract-21,true
+progress-log-07,PG-A-0003,0.02,hola,2022/07/30 00:00,Arthur,contract-21,false
+progress-log-08,PG-A-0004,63.89,hola,2022/07/30 00:00,Arthur,contract-22,false
+progress-log-09,PG-A-0005,99.99,hola,2022/07/30 00:00,Arthur,contract-22,false
+progress-log-10,PG-A-0006,100.00,hola,2022/07/30 00:00,Arthur,contract-22,true
+#Testing the comment
+progress-log-11,PG-A-0007,53.92,a,2022/07/30 00:00,Arthur,contract-23,false
+progress-log-12,PG-A-0008,53.92,aa,2022/07/30 00:00,Arthur,contract-24,false
+progress-log-13,PG-A-0009,53.92,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,2022/07/30 00:00,Arthur,contract-46,true
+progress-log-14,PG-A-0010,53.92,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,2022/07/30 00:00,Arthur,contract-47,true
+progress-log-15,PG-A-0011,53.92,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,2022/07/30 00:00,Arthur,contract-48,true
+#Testing the registration-moment
+progress-log-16,PG-A-0012,53.92,hola,2022/07/30 00:00,Arthur,contract-49,true
+progress-log-17,PG-A-0013,53.92,hola,2022/07/29 23:59,Arthur,contract-50,true
+progress-log-18,PG-A-0014,53.92,hola,2020/07/30 14:00,Arthur,contract-51,true
+progress-log-19,PG-A-0015,53.92,hola,2000/01/01 00:00,Arthur,contract-52,true
+progress-log-20,PG-A-0016,53.92,hola,2000/01/01 00:01,Arthur,contract-53,false
+#Testing the responsible-person
+progress-log-21,PG-A-0017,53.92,hola,2022/07/30 00:00,b,contract-54,false
+progress-log-22,PG-A-0018,53.92,hola,2022/07/30 00:00,bb,contract-55,false
+progress-log-23,PG-A-0019,53.92,hola,2022/07/30 00:00,bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,contract-56,false
+progress-log-24,PG-A-0020,53.92,hola,2022/07/30 00:00,bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,contract-57,false
+progress-log-25,PG-A-0021,53.92,hola,2022/07/30 00:00,bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,contract-58,false

@@ -1,0 +1,83 @@
+# menu-en.i18n
+#
+# Copyright (C) 2012-2024 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+# master.menu #################################################################
+
+master.menu.home = Home
+master.menu.sign-up = Sign up
+master.menu.sign-in = Sign in
+master.menu.sign-out = Sign out
+
+# master.menu.anonymous #######################################################
+
+master.menu.anonymous = Anonymous
+master.menu.anonymous.favourite-link-andpizcer = 29587792V : Pizzano Cerrillos, Andrés
+master.menu.anonymous.favourite-link-fraavicar1 = 77927763Z : Avilés Carrera, Francisco
+master.menu.anonymous.favourite-link-pabrufjim = 29502221Y : Rufián Jiménez, Pablo
+master.menu.anonymous.favourite-link-lortorlan1= 47555147W : Torralba Lanzas, Lorenzo
+master.menu.anonymous.favourite-link-alemollop= 29624930X : Molins López, Alexis
+
+# master.menu.administrator ###################################################
+
+master.menu.administrator = Administrator
+master.menu.administrator.dashboard = Dashboard
+master.menu.administrator.user-accounts = User accounts
+master.menu.administrator.populate-initial = Populate DB (initial)
+master.menu.administrator.populate-sample = Populate DB (samples)
+master.menu.administrator.shut-down = Shut down
+master.menu.administrator.banner.list = List the banners
+
+# master.menu.provider ########################################################
+
+master.menu.provider = Provider
+master.menu.provider.favourite-link = Favourite link
+
+# master.menu.consumer ##########################################################
+
+master.menu.consumer = Consumer
+master.menu.consumer.favourite-link = Favourite link
+
+# master.menu.client ##########################################################
+
+master.menu.client = Client
+master.menu.client.contract.list = List my contracts
+master.menu.client.dashboard = View your Darshboard
+
+# master.menu.manager ##########################################################
+
+master.menu.manager = Manager
+master.menu.manager.projects = Listing your projects
+master.menu.manager.userStories = Listing your userstories
+master.menu.manager.dashboard = Your dashboard
+
+# master.menu.user-account ####################################################
+
+master.menu.user-account = Account
+master.menu.user-account.general-data = General data
+master.menu.user-account.provider = Provider data
+master.menu.user-account.become-provider = Become a provider
+master.menu.user-account.consumer = Consumer data
+master.menu.user-account.become-consumer = Become a consumer
+
+# master.menu.developer #######################################################
+
+master.menu.developer = Developer
+master.menu.developer.modules = Listing training modules
+master.menu.developer.dashboard = statistics dashboard
+
+# master.menu.sponsor ####################################################
+
+master.menu.sponsor = Sponsor
+master.menu.sponsor.my-sponsorships = List my sponsorships
+master.menu.sponsor.dashboard = Show dashboard
+
+# master.menu.authenticated ####################################################
+master.menu.authenticated = Authenticated
+master.menu.authenticated.claim.list = List claims

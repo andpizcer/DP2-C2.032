@@ -1,0 +1,21 @@
+# messages-en.i18n
+#
+# Copyright (C) 2012-2024 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+client.client-dashboard.form.title = Your Dashboard
+
+client.dashboard.form.label.progressLogsWithCompletenessRateBelow25 = Number of progress logs with a completeness rate below 25%
+client.dashboard.form.label.progressLogsWithCompletenessRateBetween25And50 = Number of progress logs with a completeness rate between 25% and 50%
+client.dashboard.form.label.progressLogsWithCompletenessRateBetween50And75 = Number of progress logs with a completeness rate between 50% and 75%
+client.dashboard.form.label.progressLogsWithCompletenessRateAbove75 = Number of progress logs with a completeness rate above 75%
+
+client.dashboard.form.label.contractsBudgetAverage = Contracts budget average
+client.dashboard.form.label.contractsBudgetDeviation = Contracts budget deviation
+client.dashboard.form.label.contractsMinBudget = Contract minimum budget
+client.dashboard.form.label.contractsMaxBudget = Contract maximum budget

@@ -1,0 +1,14 @@
+sponsor.sponsor-dashboard.form.title = Sponsor dashboard
+
+sponsor.sponsor-dashborad.form.lowTaxInvoices				=Nº of sponsorships with a tax less or equal than 21%: 
+sponsor.sponsor-dashborad.form.linkedSponsorships			=Nº of sponsorships with a link:
+
+sponsor.sponsor-dashborad.form.averageAmountByCurrency		=The average amount of the sponsorships by currency:
+sponsor.sponsor-dashborad.form.amountDeviationByCurrency	=The deviation of the amount of the sponsorships by currency:
+sponsor.sponsor-dashborad.form.minAmountByCurrency			=The minimum amount of the sponsorships by currency:
+sponsor.sponsor-dashborad.form.maxAmountByCurrency			=The maximum amount of the sponsorships by currency:
+
+sponsor.sponsor-dashborad.form.averageQuantityByCurrency	=The average quantity of the invoices by currency:
+sponsor.sponsor-dashborad.form.quantityDeviationByCurrency	=The deviation of the quantity of the invoices by currency:
+sponsor.sponsor-dashborad.form.minQuantityByCurrency		=The minimum quantity of the invoices by currency:
+sponsor.sponsor-dashborad.form.maxQuantityByCurrency		=The maximum quantity of the invoices by currency:

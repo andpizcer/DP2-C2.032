@@ -1,0 +1,40 @@
+# messages-en.i18n
+#
+# Copyright (C) 2012-2024 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+client.contract.list.title = List of my contracts
+client.contract.form.title = Contract form
+
+
+
+client.contract.list.label.code = Code
+client.contract.list.label.amount = Budget
+client.contract.list.label.currency = Currency
+client.contract.list.label.project = Code of the project
+
+client.job.form.label.code = Code
+client.job.form.label.providerName = Provider name
+client.job.form.label.customerName = Customer name
+client.job.form.label.goals = Goals
+client.job.form.label.budget = Budget
+client.job.form.label.project = Project
+
+client.contract.list.button.create = Create
+client.contract.form.button.progressLogs = Progress Logs
+client.contract.form.button.update = Update
+client.contract.form.button.delete = Delete
+client.contract.form.button.publish = Publish
+client.contract.form.button.button.create = Create
+
+client.contract.form.error.duplicated = This code is taken
+client.contract.form.error.wrong-budget = The money must be zero or positive
+client.contract.form.error.wrong-project = The project must be published to create a contract
+
+client.contract.form.error.wrong-budget-currency-publish = The money must be in the same currency of the project
+client.contract.form.error.too-much-budget-publish = The budget for this contract exceeds the cost of the project

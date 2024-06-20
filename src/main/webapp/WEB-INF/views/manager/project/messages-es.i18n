@@ -1,0 +1,37 @@
+# messages-es.i18n
+#
+# Copyright (C) 2012-2024 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+manager.project.form.title = Detalles de proyecto
+manager.project.list.title = Listando tus proyectos
+
+manager.project.list.label.code=Código:
+manager.project.list.label.title=Título:
+manager.project.list.label.cost=Coste:
+manager.project.list.button.create= Crear proyecto
+
+manager.project.form.label.code = Código
+manager.project.form.label.title = Título
+manager.project.form.label.abstractInfo = Información
+manager.project.form.label.indication = Tiene errores críticos
+manager.project.form.label.cost = Coste
+manager.project.form.label.link = Link
+manager.project.form.label.manager = Manager
+manager.project.form.button.create= Crear proyecto
+manager.project.form.button.delete= Eliminar proyecto
+manager.project.form.button.update= Actualizar proyecto
+manager.project.form.button.user-stories= Listando sus historias de usuario
+manager.project.form.button.publish= Publicar proyecto
+
+manager.project.form.error.duplicated=Esté código ya está asociado a un proyecto existente
+manager.project.form.error.no-user-stories=El proyecto no tiene historias asociadas
+manager.project.form.error.unpublished-user-stories=Las historias del proyecto no están publicadas
+manager.project.form.error.already-published=El proyecto con dicho código se encuentra publicado
+manager.project.form.error.has-fatals=Los proyectos con fatal errors no pueden ser eliminados o actualizados
+manager.project.form.error.negative-cost=El coste de los proyectos debe ser positivo

@@ -1,0 +1,16 @@
+key,code,moment,startDate,endDate,amount,type,draftMode,email,link,key:sponsor,key:project
+sponsorship-01,A-123,2021/04/01 12:30,2024/04/02 0:0,2024/05/02 0:0,EUR 12404.73,FINANCIAL,true,sponsor01@acme.com,https://www.sponsor.com/sponsor,sponsor-01,project-01
+sponsorship-02,BCD-999,2021/04/01 12:30,2024/04/02 0:0,2024/05/02 0:0,EUR 132.76,FINANCIAL,true,sponsor01@acme.com,https://www.sponsor.com/sponsor,sponsor-01,project-01
+sponsorship-03,A-124,1900/1/1 0:0,2024/04/02 0:0,2024/05/02 0:0,USD 132.76,FINANCIAL,true,sponsor01@acme.com,https://www.sponsor.com/sponsor,sponsor-01,project-01
+sponsorship-04,A-125,2022/07/30 0:0,2024/04/02 0:0,2024/05/02 0:0,GBP 132.76,FINANCIAL,true,sponsor01@acme.com,https://www.sponsor.com/sponsor,sponsor-01,project-01
+sponsorship-05,A-126,2021/04/01 12:30,2022/07/30 0:1,2022/08/30 0:1,EUR 121.00,FINANCIAL,false,sponsor01@acme.com,https://www.sponsor.com/sponsor,sponsor-01,project-01
+sponsorship-06,A-127,2021/04/01 12:30,9999/11/30 11:59,9999/12/31 11:59,EUR 132.76,FINANCIAL,true,sponsor01@acme.com,https://www.sponsor.com/sponsor,sponsor-01,project-01
+sponsorship-07,A-128,2021/04/01 12:30,2024/04/02 0:0,2024/05/02 0:0,EUR 0,FINANCIAL,false,sponsor01@acme.com,https://www.sponsor.com/sponsor,sponsor-01,project-01
+sponsorship-08,A-129,2021/04/01 12:30,2024/04/02 0:0,2024/05/02 0:0,EUR 0.01,FINANCIAL,true,sponsor01@acme.com,https://www.sponsor.com/sponsor,sponsor-01,project-01
+sponsorship-09,A-130,2021/04/01 12:30,2024/04/02 0:0,2024/05/02 0:0,EUR 9999999999,FINANCIAL,true,sponsor01@acme.com,https://www.sponsor.com/sponsor,sponsor-01,project-01
+sponsorship-10,A-131,2021/04/01 12:30,2024/04/02 0:0,2024/05/02 0:0,EUR 421.00,IN_KIND,true,sponsor01@acme.com,https://www.sponsor.com/sponsor,sponsor-01,project-01
+sponsorship-11,A-132,2021/04/01 12:30,2024/04/02 0:0,2024/05/02 0:0,EUR 99.99,FINANCIAL,true,null,https://www.sponsor.com/sponsor,sponsor-01,project-01
+sponsorship-12,A-134,2021/04/01 12:30,2024/04/02 0:0,2024/05/02 0:0,EUR 100.01,FINANCIAL,true,sponsor01@acme.com,null,sponsor-01,project-01
+sponsorship-13,A-135,2021/04/01 12:30,2024/04/02 0:0,2024/05/02 0:0,EUR 132.76,FINANCIAL,true,sponsor01@acme.com,https://www.sponsor.com/sponsor,sponsor-02,project-01
+sponsorship-14,A-136,2021/04/01 12:30,2024/04/02 0:0,2024/05/02 0:0,EUR 132.76,FINANCIAL,true,sponsor01@acme.com,https://www.sponsor.com/sponsor,sponsor-01,project-02
+sponsorship-15,A-137,2021/04/01 12:30,2024/04/02 0:0,2024/05/02 0:0,EUR 0,FINANCIAL,true,sponsor01@acme.com,https://www.sponsor.com/sponsor,sponsor-01,project-01

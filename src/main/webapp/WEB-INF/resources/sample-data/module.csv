@@ -1,0 +1,30 @@
+key,code,creation-moment,details,difficulty-level,update-moment,link,total-time,key:project,key:developer,draft-mode
+module-01,A-000,2022/07/01 00:00,details,BASIC,null,null,1,project-01,developer-01,false
+module-02,AA-000,2022/07/01 00:00,details,BASIC,null,null,1,project-01,developer-01,true
+module-03,AAA-000,2022/07/01 00:00,details,BASIC,null,null,1,project-01,developer-01,true
+module-04,ZZZ-999,2022/07/01 00:00,details,BASIC,null,null,1,project-01,developer-01,true
+module-05,ZZ-999,2022/07/01 00:00,details,BASIC,null,null,1,project-01,developer-01,true
+module-06,Z-999,2022/07/01 00:00,details,BASIC,null,null,1,project-01,developer-01,true
+module-07,B-111,2022/07/30 00:00,details,BASIC,null,null,1,project-02,developer-01,true
+module-08,C-111,2022/07/29 23:59,details,BASIC,null,null,1,project-02,developer-01,true
+module-09,D-111,2000/01/01 00:00,details,BASIC,null,null,1,project-02,developer-01,true
+module-10,E-111,2000/01/01 00:01,details,BASIC,null,null,1,project-02,developer-01,true
+module-11,F-111,2022/07/01 00:00,a,BASIC,null,null,1,project-02,developer-01,true
+module-12,G-111,2022/07/01 00:00,aa,BASIC,null,null,1,project-02,developer-01,true
+module-13,H-111,2022/07/01 00:00,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,BASIC,null,null,1,project-16,developer-01,true
+module-14,I-111,2022/07/01 00:00,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,BASIC,null,null,1,project-16,developer-01,true
+module-15,J-111,2022/07/01 00:00,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,BASIC,null,null,1,project-16,developer-01,true
+module-16,K-111,2022/07/01 00:00,details,INTERMEDIATE,null,null,1,project-16,developer-01,true
+module-17,L-111,2022/07/01 00:00,details,ADVANCED,null,null,1,project-16,developer-01,true
+module-18,M-111,2022/07/01 00:00,details,BASIC,2022/07/30 00:00,null,1,project-16,developer-01,true
+module-19,N-111,2022/07/01 00:00,details,BASIC,2022/07/29 23:59,null,1,project-16,developer-01,true
+module-20,O-111,2000/01/01 00:00,details,BASIC,2000/01/01 00:01,null,1,project-16,developer-01,true
+module-21,P-111,2000/01/01 00:00,details,BASIC,2000/01/01 00:02,null,1,project-16,developer-01,true
+module-22,Q-111,2022/07/01 00:00,details,BASIC,null,https://www.google.com/,1,project-16,developer-01,true
+module-23,R-111,2022/07/01 00:00,details,BASIC,null,http://exampleeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.com/example.html?test=1#seccion,1,project-17,developer-01,true
+module-24,S-111,2022/07/01 00:00,details,BASIC,null,http://中国佬.com,1,project-17,developer-01,true
+module-25,T-111,2022/07/01 00:00,details,BASIC,null,http://a.a,1,project-17,developer-01,true
+module-26,U-111,2022/07/01 00:00,details,BASIC,null,null,2,project-17,developer-01,true
+module-27,V-111,2022/07/01 00:00,details,BASIC,null,null,5000,project-17,developer-01,false
+module-28,W-111,2022/07/01 00:00,details,BASIC,null,null,9999,project-17,developer-01,false
+module-29,X-111,2022/07/01 00:00,details,BASIC,null,null,10000,project-17,developer-02,true

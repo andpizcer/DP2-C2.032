@@ -1,0 +1,74 @@
+key,code,instantiation-moment,provider-name,customer-name,goals,budget,key:project,key:client,draft-mode
+#Testing the code
+contract-01,A-000,2022/07/30 00:00,"Jaime","Pepe","adios",EUR 12000.30,project-16,client-01,true
+contract-02,A-001,2022/07/30 00:00,"Jaime","Pepe","adios",EUR 12000.30,project-17,client-01,true
+contract-03,PQ-555,2022/07/30 00:00,"Jaime","Pepe","adios",EUR 12000.30,project-17,client-01,true
+contract-04,ZZZ-998,2022/07/30 00:00,"Jaime","Pepe","adios",EUR 12000.30,project-17,client-01,true
+contract-05,ZZZ-999,2022/07/30 00:00,"Jaime","Pepe","adios",EUR 12000.30,project-18,client-01,true
+#Testing the instantiation-moment
+contract-06,AA-000,2022/07/30 00:00,"Jaime","Pepe","adios",EUR 12000.30,project-18,client-01,true
+contract-07,AA-001,2022/07/29 23:59,"Jaime","Pepe","adios",EUR 12000.30,project-18,client-01,true
+contract-08,AA-002,2020/07/30 14:00,"Jaime","Pepe","adios",EUR 12000.30,project-18,client-01,true
+contract-09,AA-003,2000/01/01 00:00,"Jaime","Pepe","adios",EUR 12000.30,project-40,client-01,true
+contract-10,AA-004,2000/01/01 00:01,"Jaime","Pepe","adios",EUR 12000.30,project-40,client-01,true
+#Testing the provider-name
+contract-11,AA-005,2022/07/30 00:00,"a","Pepe","adios",EUR 12000.30,project-40,client-01,true
+contract-12,AA-006,2022/07/30 00:00,"aa","Pepe","adios",EUR 12000.30,project-40,client-01,true
+contract-13,AA-007,2022/07/30 00:00,"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","Pepe","adios",EUR 12000.30,project-40,client-01,true
+contract-14,AA-008,2022/07/30 00:00,"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","Pepe","adios",EUR 12000.30,project-41,client-01,true
+contract-15,AA-009,2022/07/30 00:00,"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","Pepe","adios",EUR 12000.30,project-41,client-01,true
+#Testing the customer-name
+contract-16,AA-010,2022/07/30 00:00,"Jaime","b","adios",EUR 12000.30,project-41,client-01,false
+contract-17,AA-011,2022/07/30 00:00,"Jaime","bb","adios",EUR 12000.30,project-41,client-01,false
+contract-18,AA-012,2022/07/30 00:00,"Jaime","bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb","adios",EUR 12000.30,project-41,client-01,false
+contract-19,AA-013,2022/07/30 00:00,"Jaime","bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb","adios",EUR 12000.30,project-41,client-01,false
+contract-20,AA-014,2022/07/30 00:00,"Jaime","bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb","adios",EUR 12000.30,project-42,client-01,false
+#Testing the goals
+contract-21,AA-015,2022/07/30 00:00,"Jaime","Pepe","a",EUR 12000.30,project-42,client-01,false
+contract-22,AA-016,2022/07/30 00:00,"Jaime","Pepe","aa",EUR 12000.30,project-42,client-01,false
+contract-23,AA-017,2022/07/30 00:00,"Jaime","Pepe","aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",EUR 12000.30,project-42,client-01,false
+contract-24,AA-018,2022/07/30 00:00,"Jaime","Pepe","aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",EUR 12000.30,project-42,client-01,false
+contract-25,AA-019,2022/07/30 00:00,"Jaime","Pepe","aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",EUR 12000.30,project-42,client-01,false
+#Testing the budget
+contract-26,AA-020,2022/07/30 00:00,"Jaime","Pepe","adios",EUR 0.00,project-01,client-01,false
+contract-27,AA-021,2022/07/30 00:00,"Jaime","Pepe","adios",EUR 0.01,project-16,client-01,false
+contract-28,AA-022,2022/07/30 00:00,"Jaime","Pepe","adios",EUR 5000000000.00,project-18,client-01,false
+contract-29,AA-023,2022/07/30 00:00,"Jaime","Pepe","adios",EUR 9999999999.98,project-47,client-01,false
+contract-30,AA-024,2022/07/30 00:00,"Jaime","Pepe","adios",EUR 9999999999.99,project-23,client-01,false
+#Same data for client2
+#
+contract-31,HA-123,2022/07/30 00:00,"Jaime","Pepe","adios",EUR 12000.30,project-16,client-02,true
+contract-32,HB-123,2022/07/30 00:00,"Jaime","Pepe","adios",EUR 12000.30,project-17,client-02,true
+contract-33,HC-123,2022/07/30 00:00,"Jaime","Pepe","adios",EUR 12000.30,project-17,client-02,true
+contract-34,HD-123,2022/07/30 00:00,"Jaime","Pepe","adios",EUR 12000.30,project-17,client-02,true
+contract-35,HE-123,2022/07/30 00:00,"Jaime","Pepe","adios",EUR 12000.30,project-18,client-02,true
+#
+contract-36,HF-123,2022/07/30 00:00,"Jaime","Pepe","adios",EUR 12000.30,project-18,client-02,true
+contract-37,HG-123,2022/07/29 23:59,"Jaime","Pepe","adios",EUR 12000.30,project-18,client-02,true
+contract-38,HH-123,2020/07/30 14:00,"Jaime","Pepe","adios",EUR 12000.30,project-18,client-02,true
+contract-39,HI-123,2000/01/01 00:00,"Jaime","Pepe","adios",EUR 12000.30,project-40,client-02,true
+contract-40,HJ-123,2000/01/01 00:01,"Jaime","Pepe","adios",EUR 12000.30,project-40,client-02,true
+#
+contract-41,HK-123,2022/07/30 00:00,"a","Pepe","adios",EUR 12000.30,project-40,client-02,true
+contract-42,HL-123,2022/07/30 00:00,"aa","Pepe","adios",EUR 12000.30,project-40,client-02,true
+contract-43,HM-123,2022/07/30 00:00,"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","Pepe","adios",EUR 12000.30,project-40,client-02,true
+contract-44,HN-123,2022/07/30 00:00,"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","Pepe","adios",EUR 12000.30,project-41,client-02,true
+contract-45,HO-123,2022/07/30 00:00,"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","Pepe","adios",EUR 12000.30,project-41,client-02,true
+#
+contract-46,HP-123,2022/07/30 00:00,"Jaime","b","adios",EUR 12000.30,project-41,client-02,false
+contract-47,HQ-123,2022/07/30 00:00,"Jaime","bb","adios",EUR 12000.30,project-41,client-02,false
+contract-48,HR-123,2022/07/30 00:00,"Jaime","bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb","adios",EUR 12000.30,project-41,client-02,false
+contract-49,HS-123,2022/07/30 00:00,"Jaime","bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb","adios",EUR 12000.30,project-41,client-02,false
+contract-50,HT-123,2022/07/30 00:00,"Jaime","bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb","adios",EUR 12000.30,project-42,client-02,false
+#
+contract-51,HU-123,2022/07/30 00:00,"Jaime","Pepe","a",EUR 12000.30,project-42,client-02,false
+contract-52,HV-123,2022/07/30 00:00,"Jaime","Pepe","aa",EUR 12000.30,project-42,client-02,false
+contract-53,HW-123,2022/07/30 00:00,"Jaime","Pepe","aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",EUR 12000.30,project-42,client-02,false
+contract-54,HX-123,2022/07/30 00:00,"Jaime","Pepe","aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",EUR 12000.30,project-42,client-02,false
+contract-55,HY-123,2022/07/30 00:00,"Jaime","Pepe","aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",EUR 12000.30,project-42,client-02,false
+#
+contract-56,HZ-123,2022/07/30 00:00,"Jaime","Pepe","adios",EUR 0.00,project-01,client-02,false
+contract-57,HA-124,2022/07/30 00:00,"Jaime","Pepe","adios",EUR 0.01,project-16,client-02,false
+contract-58,HA-125,2022/07/30 00:00,"Jaime","Pepe","adios",EUR 5000000000.00,project-42,client-02,false
+contract-59,HA-126,2022/07/30 00:00,"Jaime","Pepe","adios",EUR 500.00,project-46,client-02,false
+contract-60,HA-127,2022/07/30 00:00,"Jaime","Pepe","adios",EUR 1000.00,project-46,client-02,false

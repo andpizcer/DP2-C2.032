@@ -1,0 +1,32 @@
+sponsor.sponsorship.list.title = Listing of sponsorships
+
+sponsor.sponsorship.list.label.code = Code
+sponsor.sponsorship.list.label.published = Published
+sponsor.sponsorship.list.label.amount = Amount
+sponsor.sponsorship.list.label.startDate = Start Date
+sponsor.sponsorship.list.label.endDate = End Date
+sponsor.sponsorship.list.buttom.create = Create
+
+sponsor.sponsorship.form.title = Sponsorship form
+
+sponsor.sponsorship.form.label.code = Code:
+sponsor.sponsorship.form.label.amount = Amount:
+sponsor.sponsorship.form.label.startDate = Start Date:
+sponsor.sponsorship.form.label.endDate = End Date:
+sponsor.sponsorship.form.label.moment = Moment
+sponsor.sponsorship.form.label.type = Type
+sponsor.sponsorship.form.label.email = Email: (Optional)
+sponsor.sponsorship.form.label.link = Link: (Optional)
+sponsor.sponsorship.form.label.project = Project
+
+sponsor.sponsorship.form.button.create = Create
+sponsor.sponsorship.form.button.invoices = Invoices 
+sponsor.sponsorship.form.button.delete = Delete
+sponsor.sponsorship.form.button.update = Update
+sponsor.sponsorship.form.button.publish = Publish
+
+sponsor.sponsorship.form.error.oneMonthLong = Duration must be at least one month long
+sponsor.sponsorship.form.error.afterMoment = The sponsorship must start after moment
+sponsor.sponsorship.form.error.positiveAmount = The amount must be positive
+sponsor.sponsorship.form.error.alreadyPublished = This sponsorship has already been published and can't be changed
+sponsor.sponsorship.form.error.unexpectedTotalAmount = The amount must match the sum of total amounts of the invoices

@@ -1,0 +1,40 @@
+# messages-es.i18n
+#
+# Copyright (C) 2012-2024 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+client.contract.list.title = Listado de mis contratos
+client.contract.form.title = Detalles del contrato
+
+
+
+client.contract.list.label.code = Código
+client.contract.list.label.amount = Presupuesto
+client.contract.list.label.currency = Moneda
+client.contract.list.label.project = Código del proyecto
+
+client.job.form.label.code = Código
+client.job.form.label.providerName = Nombre del proveedor
+client.job.form.label.customerName = Nombre del cliente
+client.job.form.label.goals = Objetivos
+client.job.form.label.budget = Presupuesto
+client.job.form.label.project = Proyecto
+
+client.contract.list.button.create = Crear
+client.contract.form.button.progressLogs = Registros de Progreso
+client.contract.form.button.update = Editar
+client.contract.form.button.delete = Eliminar
+client.contract.form.button.publish = Publicar
+client.contract.form.button.button.create = Crear
+
+client.contract.form.error.duplicated = Este código está cogido
+client.contract.form.error.wrong-budget = El dinero debe cero o positivo
+client.contract.form.error.wrong-project = El proyecto debe estar publicado para crear un contrato
+
+client.contract.form.error.wrong-budget-currency-publish = The dinero debe estar en la misma moneda que el proyecto
+client.contract.form.error.too-much-budget-publish = Con el presupuesto de este contrato se excede el coste del proyecto

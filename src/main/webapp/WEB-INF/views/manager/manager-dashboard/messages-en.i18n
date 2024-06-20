@@ -1,0 +1,23 @@
+# messages-en.i18n
+#
+# Copyright (C) 2012-2024 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+manager.manager-dashboard.form.title=Your Dashboard
+
+manager.dashboard.form.label.totalMust=Total must stories
+manager.dashboard.form.label.totalShould=Total should stories
+manager.dashboard.form.label.totalCould=Total could stories
+manager.dashboard.form.label.totalWont=Total wont stories
+manager.dashboard.form.label.avgEstCost=Average estimated cost of your stories
+manager.dashboard.form.label.devEstCost=Deviation estimated cost of your stories
+manager.dashboard.form.label.minEstCost=Minimum estimated cost of your stories
+manager.dashboard.form.label.maxEstCost=Maximum estimated cost of your stories
+manager.dashboard.form.label.avgCost=Average estimated cost of your projects
+manager.dashboard.form.label.devCost=Deviation estimated cost of your projects
+manager.dashboard.form.label.minCost=Minimum estimated cost of your projects
+manager.dashboard.form.label.maxCost=Maximum estimated cost of your projects

@@ -1,0 +1,14 @@
+sponsor.sponsor-dashboard.form.title = Panel de indicadores de patrocinador
+
+sponsor.sponsor-dashborad.form.lowTaxInvoices				=Nº de patrocinios con impuesto menor o igual a 21%: 
+sponsor.sponsor-dashborad.form.linkedSponsorships			=Nº de patrocinios con enlace:
+
+sponsor.sponsor-dashborad.form.averageAmountByCurrency		=La media de capital de los patrocinios por divisa:
+sponsor.sponsor-dashborad.form.amountDeviationByCurrency	=La desviación típica de capital de los patrocinios por divisa:
+sponsor.sponsor-dashborad.form.minAmountByCurrency			=El mínimo de capital de los patrocinios por divisa:
+sponsor.sponsor-dashborad.form.maxAmountByCurrency			=El máximo de capital de los patrocinios por divisa:
+
+sponsor.sponsor-dashborad.form.averageQuantityByCurrency	=La media de capital de las facturas por divisa:
+sponsor.sponsor-dashborad.form.quantityDeviationByCurrency	=La desviación típica de capital de las facturas por divisa:
+sponsor.sponsor-dashborad.form.minQuantityByCurrency		=El mínimo de capital de las facturas por divisa:
+sponsor.sponsor-dashborad.form.maxQuantityByCurrency		=El máximo de capital de las facturas por divisa:

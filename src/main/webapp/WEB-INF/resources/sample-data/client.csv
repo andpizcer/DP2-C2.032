@@ -1,0 +1,3 @@
+key,key:userAccount,identification,company-name,type,email,more-info
+client-01,user-account-client-01,"CLI-1234","Plent AC",INDIVIDUAL,"personalemail1@gmail.com","https://www.youtube.com/"
+client-02,user-account-client-02,"CLI-5678","Free AC",COMPANY,"personalemail2@gmail.com","https://twitter.com/"

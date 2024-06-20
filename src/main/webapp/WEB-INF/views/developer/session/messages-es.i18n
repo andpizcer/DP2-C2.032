@@ -1,0 +1,37 @@
+# messages-es.i18n
+#
+# Copyright (C) 2012-2024 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+developer.session.form.title = Detalles de la sesión de entrenamiento
+developer.session.list.title = Listando tus sesiones de entrenamiento
+
+developer.session.list.label.code=Codigo:
+developer.session.list.label.draftMode=Modo borrador:
+developer.session.list.label.trainingModule=Módulo de entrenamiento:
+
+developer.session.form.label.code = Código
+developer.session.form.label.fechaInicio = Fecha de inicio
+developer.session.form.label.fechaFinal = Fecha de finalización
+developer.session.form.label.location = Localización
+developer.session.form.label.instructor = Instructor
+developer.session.form.label.email = Email
+developer.session.form.label.link = Link
+developer.session.form.label.trainingModule = Modulo de entrenamiento
+
+developer.session.form.button.update = Editar
+developer.session.form.button.delete = Eliminar
+developer.session.form.button.publish = Publicar
+developer.session.form.button.create = Crear
+developer.session.list.button.create = Crear
+
+developer.training-session.form.error.max-date= Esta fecha debe ser anterior al 31/12/2200  23:59:00
+developer.training-session.form.error.duplicated= Este código ya ha sido usado en otra sesión de entrenamiento
+developer.training-session.form.error.invalid-start-date= La fecha de inicio debe ser al menos una semana después de la creación del módulo de entrenamiento
+developer.training-session.form.error.invalid-start-date-2= La fecha de inicio debe ser al menos una semana antes de la fecha de fin
+developer.training-session.form.error.invalid-end-date= La fecha de finalización debe ser al menos una semana después de la fecha de inicio

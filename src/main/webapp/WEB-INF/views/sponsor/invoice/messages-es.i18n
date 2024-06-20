@@ -1,0 +1,23 @@
+sponsor.invoice.list.title = Listado de facturas
+
+sponsor.invoice.list.label.code = Código
+sponsor.invoice..list.label.dueDate =  Fecha de vencimiento
+sponsor.invoice.list.label.quantity = Cantidad
+
+sponsor.invoice.list.button.create = Crear
+
+sponsor.invoice.form.title = Detalles de factura
+
+sponsor.invoice.form.label.code = Código:
+sponsor.invoice.form.label.registrationTime = Fecha de registro:
+sponsor.invoice.form.label.dueDate = Fecha de vencimiento
+sponsor.invoice.form.label.quantity =  Cantidad:
+sponsor.invoice.form.label.tax = Impuesto:
+sponsor.invoice.form.label.link = Enlace: (Opcional)
+sponsor.invoice.form.label.sponsorship = Patrocinio:
+sponsor.invoice.form.label.totalAmount = Capital total:
+
+sponsor.invoice.form.button.create = Crear
+sponsor.invoice.form.button.delete = Borrar
+sponsor.invoice.form.button.update = Actualizar
+sponsor.invoice.form.button.publish = Publicar

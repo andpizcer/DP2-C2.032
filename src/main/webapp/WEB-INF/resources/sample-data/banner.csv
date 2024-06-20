@@ -1,0 +1,40 @@
+key,type,instantiation-update-moment,display-period-start,display-periodEnd,picture,slogan,link
+# Testing the type
+banner-01,PRODUCT,2019/05/20 00:00,2019/05/21 00:00,2019/05/28 00:00,"https://images.google.com/","koweokpew","https://www.google.com/"
+banner-02,SERVICE,2019/05/20 00:00,2019/05/21 00:00,2019/05/28 00:00,"https://images.google.com/","koweokpew","https://www.google.com/"
+banner-03,ORGANISATION,2019/05/20 00:00,2019/05/21 00:00,2019/05/28 00:00,"https://images.google.com/","koweokpew","https://www.google.com/"
+# Testing the instantiation-update-moment
+banner-04,PRODUCT,2000/01/01 00:00,2019/05/21 00:00,2019/05/28 00:00,"https://images.google.com/","koweokpew","https://www.google.com/"
+banner-05,PRODUCT,2000/01/01 00:01,2019/05/21 00:01,2019/05/28 00:01,"https://images.google.com/","koweokpew","https://www.google.com/"
+banner-06,PRODUCT,2010/10/10 00:00,2050/12/24 00:00,2050/12/31 00:00,"https://images.google.com/","koweokpew","https://www.google.com/"
+banner-07,PRODUCT,2020/07/30 00:00,2100/12/23 00:00,2100/12/30 23:00,"https://images.google.com/","koweokpew","https://www.google.com/"
+banner-08,PRODUCT,2020/07/29 23:59,2100/12/24 00:00,2100/12/31 23:00,"https://images.google.com/","koweokpew","https://www.google.com/"
+# Testing the display-period-start and the display
+banner-09,PRODUCT,2000/01/01 00:00,2000/01/01 00:01,2000/01/08 00:01,"https://images.google.com/","koweokpew","https://www.google.com/"
+banner-10,PRODUCT,2000/01/01 00:00,2000/01/01 00:02,2000/01/08 00:02,"https://images.google.com/","koweokpew","https://www.google.com/"
+banner-11,PRODUCT,2000/01/01 00:00,2050/01/01 00:02,2050/01/08 00:02,"https://images.google.com/","koweokpew","https://www.google.com/"
+banner-12,PRODUCT,2000/01/01 00:00,2100/12/24 23:58,2100/12/31 23:58,"https://images.google.com/","koweokpew","https://www.google.com/"
+banner-13,PRODUCT,2000/01/01 00:00,2100/12/24 23:59,2100/12/31 23:59,"https://images.google.com/","koweokpew","https://www.google.com/"
+# Testing the picture
+banner-14,PRODUCT,2019/05/20 00:00,2019/05/21 00:00,2019/05/28 00:00,"http://www.lorem-ipsum.org","koweokpew","https://www.google.com/"
+banner-15,PRODUCT,2019/05/20 00:00,2019/05/21 00:00,2019/05/28 00:00,"ftp://a","koweokpew","https://www.google.com/"
+banner-16,PRODUCT,2019/05/20 00:00,2019/05/21 00:00,2019/05/28 00:00,"ftp://a.b","koweokpew","https://www.google.com/"
+banner-17,PRODUCT,2019/05/20 00:00,2019/05/21 00:00,2019/05/28 00:00,"http://www.lorem-ipsum.org/dolor/sit/amet,/consectetur/adipiscing/elit,/sed/do/eiusmod/tempor/incididunt/ut/labore/et/dolore/magna/aliqua/Ut/enim/ad/minim/veniam/quis/nostrud/exercitation/ullamco/laboris/nisi/ut/aliquip/ex/ea/commodo/consequat/duis/aute/","koweokpew","https://www.google.com/"
+banner-18,PRODUCT,2019/05/20 00:00,2019/05/21 00:00,2019/05/28 00:00,"http://www.lorem-ipsum.org/dolor/sit/amet,/consectetur/adipiscing/elit,/sed/do/eiusmod/tempor/incididunt/ut/labore/et/dolore/magna/aliqua/Ut/enim/ad/minim/veniam/quis/nostrud/exercitation/ullamco/laboris/nisi/ut/aliquip/ex/ea/commodo/consequat/duis/aute/X","koweokpew","https://www.google.com/"
+banner-19,PRODUCT,2019/05/20 00:00,2019/05/21 00:00,2019/05/28 00:00,"http://example.org?a&b","koweokpew","https://www.google.com/"
+# Displayed banners
+banner-20,PRODUCT,2022/07/28 00:00,2022/07/29 00:00,2022/07/31 00:00,"https://i.imgur.com/8YcXhS0.png","Be the hero nature needs","https://www.worldwildlife.org/"
+banner-21,PRODUCT,2022/07/28 00:00,2022/07/29 00:00,2022/07/31 00:00,"https://i.imgur.com/MtBRoNP.png","Medical care where it's needed most","https://www.doctorswithoutborders.org/"
+# Testing the slogan
+banner-22,PRODUCT,2019/05/20 00:00,2019/05/21 00:00,2019/05/28 00:00,"https://images.google.com/","a","https://www.google.com/"
+banner-23,PRODUCT,2019/05/20 00:00,2019/05/21 00:00,2019/05/28 00:00,"https://images.google.com/","aa","https://www.google.com/"
+banner-24,PRODUCT,2019/05/20 00:00,2019/05/21 00:00,2019/05/28 00:00,"https://images.google.com/","Lorem ipsum dolor sit amet, consec","https://www.google.com/"
+banner-25,PRODUCT,2019/05/20 00:00,2019/05/21 00:00,2019/05/28 00:00,"https://images.google.com/","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmode e","https://www.google.com/"
+banner-26,PRODUCT,2019/05/20 00:00,2019/05/21 00:00,2019/05/28 00:00,"https://images.google.com/","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmode er","https://www.google.com/"
+# Testing the link
+banner-27,PRODUCT,2019/05/20 00:00,2019/05/21 00:00,2019/05/28 00:00,"https://images.google.com/","koweokpew","http://www.lorem-ipsum.org"
+banner-28,PRODUCT,2019/05/20 00:00,2019/05/21 00:00,2019/05/28 00:00,"https://images.google.com/","koweokpew","ftp://a"
+banner-29,PRODUCT,2019/05/20 00:00,2019/05/21 00:00,2019/05/28 00:00,"https://images.google.com/","koweokpew","ftp://a.b"
+banner-30,PRODUCT,2019/05/20 00:00,2019/05/21 00:00,2019/05/28 00:00,"https://images.google.com/","koweokpew","http://www.lorem-ipsum.org/dolor/sit/amet,/consectetur/adipiscing/elit,/sed/do/eiusmod/tempor/incididunt/ut/labore/et/dolore/magna/aliqua/Ut/enim/ad/minim/veniam/quis/nostrud/exercitation/ullamco/laboris/nisi/ut/aliquip/ex/ea/commodo/consequat/duis/aute/"
+banner-31,PRODUCT,2019/05/20 00:00,2019/05/21 00:00,2019/05/28 00:00,"https://images.google.com/","koweokpew","http://www.lorem-ipsum.org/dolor/sit/amet,/consectetur/adipiscing/elit,/sed/do/eiusmod/tempor/incididunt/ut/labore/et/dolore/magna/aliqua/Ut/enim/ad/minim/veniam/quis/nostrud/exercitation/ullamco/laboris/nisi/ut/aliquip/ex/ea/commodo/consequat/duis/aute/X"
+banner-32,PRODUCT,2019/05/20 00:00,2019/05/21 00:00,2019/05/28 00:00,"https://images.google.com/","koweokpew","http://www.lorem-ipsum.org/dolor/sit.html#dolor"

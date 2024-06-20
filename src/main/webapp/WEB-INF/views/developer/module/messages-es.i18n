@@ -1,0 +1,39 @@
+# messages-es.i18n
+#
+# Copyright (C) 2012-2024 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+developer.module.form.title = Detalles del modulo de entrenamiento
+developer.module.list.title = Listando tus modulos de entrenamiento
+
+developer.module.list.label.code=Codigo:
+developer.module.list.label.draftMode=Modo borrador:
+developer.module.list.label.project=Proyecto:
+
+developer.module.form.label.code = Código
+developer.module.form.label.creationMoment = Momento de creación
+developer.module.form.label.details = Detalles
+developer.module.form.label.difficultyLevel = Nivel de dificultad
+developer.module.form.label.updateMoment = Momento de actualización
+developer.module.form.label.link = Link
+developer.module.form.label.totalTime = Tiempo total
+developer.module.form.label.project = Proyecto
+developer.module.form.label.developer = Developer
+
+developer.module.list.button.create= Crear
+
+developer.module.form.button.training-sessions=Sesiones de entrenamiento
+developer.module.form.button.update=Editar
+developer.module.form.button.delete=Eliminar
+developer.module.form.button.publish=Publicar
+developer.module.form.button.create=Crear
+
+developer.training-module.form.error.duplicated= Este código ya ha sido usado en otro módulo de entrenamiento
+developer.training-module.form.error.invalid-update-date= La fecha de actualización debe ser posterior a la de creación
+developer.training-module.form.error.without-sessions= No existen sesiones de entrenamiento asociadas a este módulo
+developer.training-module.form.error.must-be-published= Las sesiones de entrenamiento deben estar todas publicadas

@@ -1,0 +1,16 @@
+key,code,registrationTime,dueDate,quantity,tax,draftMode,link,key:sponsorship
+invoice-01,IN-0123-4567,2020/3/7 11:45,2024/6/16 0:0,EUR 935.50,21.0,false,https://www.sponsor.com/invoice/01,sponsorship-01
+invoice-02,IN-0123-4568,1900/1/1 0:0,2024/6/16 0:0,EUR 935.50,21.0,true,https://www.sponsor.com/invoice/01,sponsorship-02
+invoice-03,IN-0123-4569,2022/07/30 0:0,2024/6/16 0:0,USD 935.50,21.0,true,https://www.sponsor.com/invoice/01,sponsorship-03
+invoice-04,IN-0123-4570,2020/3/7 11:45,2022/07/30 0:1,USD 935.50,21.0,false,https://www.sponsor.com/invoice/01,sponsorship-03
+invoice-05,IN-0123-4571,2020/3/7 11:45,9999/12/31 11:59,EUR 100.00,21.0,false,https://www.sponsor.com/invoice/01,sponsorship-05
+invoice-06,IN-0123-4572,2020/3/7 11:45,2024/6/16 0:0,EUR 0.01,21.0,false,https://www.sponsor.com/invoice/01,sponsorship-01
+invoice-07,IN-0123-4573,2020/3/7 11:45,2024/6/16 0:0,EUR 30000000,21.0,false,https://www.sponsor.com/invoice/01,sponsorship-01
+invoice-08,IN-0123-4574,2020/3/7 11:45,2024/6/16 0:0,EUR 935.50,0,false,https://www.sponsor.com/invoice/01,sponsorship-01
+invoice-09,IN-0123-4575,2020/3/7 11:45,2024/6/16 0:0,EUR 935.50,0.0001,false,https://www.sponsor.com/invoice/01,sponsorship-01
+invoice-10,IN-0123-4576,2020/3/7 11:45,2024/6/16 0:0,EUR 935.50,100,false,https://www.sponsor.com/invoice/01,sponsorship-01
+invoice-11,IN-0123-4577,2020/3/7 11:45,2024/6/16 0:0,EUR 935.50,99.9999,false,https://www.sponsor.com/invoice/01,sponsorship-01
+invoice-12,IN-0123-4578,2020/3/7 11:45,2024/6/16 0:0,EUR 200.00,50.0,false,null,sponsorship-10
+invoice-13,IN-0123-4579,2020/3/7 11:45,2024/6/16 0:0,EUR 100.00,21.0,false,https://www.sponsor.com/invoice/01,sponsorship-10
+invoice-14,IN-0123-4580,2020/3/7 11:45,2024/6/16 0:0,EUR 100.00,0,false,https://www.sponsor.com/invoice/01,sponsorship-11
+invoice-15,IN-0123-4581,2020/3/7 11:45,2024/6/16 0:0,EUR 100.00,0,false,https://www.sponsor.com/invoice/01,sponsorship-12
