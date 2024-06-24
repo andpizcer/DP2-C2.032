@@ -21,3 +21,9 @@ sponsor.invoice.form.button.create = Create
 sponsor.invoice.form.button.delete = Delete
 sponsor.invoice.form.button.update = Update
 sponsor.invoice.form.button.publish = Publish
+
+sponsor.invoice.form.error.dueDateAfterRegistartion = Due date must be after registration date
+sponsor.invoice.form.error.oneMonthLong = Due date must be at least one month ahead of registration date
+sponsor.invoice.form.error.positiveNotNoughtQuantity = Quantity must be greater than zero
+sponsor.invoice.form.error.differentCurrency = Invoices must have the same currency as their sponsorships
+sponsor.invoice.form.error.duplicateCode = An invoice with this code already exists.

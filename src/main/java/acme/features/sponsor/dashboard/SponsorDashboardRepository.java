@@ -14,75 +14,75 @@ import acme.client.repositories.AbstractRepository;
 @Repository
 public interface SponsorDashboardRepository extends AbstractRepository {
 
-	@Query("SELECT count(i) FROM Invoice i WHERE i.tax <= 21")
-	int lowTaxInvoicesCount();
+	@Query("SELECT count(i) FROM Invoice i WHERE i.tax <= 21 AND i.sponsorship.sponsor.id = :sponsorId")
+	int lowTaxInvoicesCount(int sponsorId);
 
-	@Query("SELECT count(s) FROM Sponsorship s WHERE s.link != null")
-	int linkedSponsorshipsCount();
+	@Query("SELECT count(s) FROM Sponsorship s WHERE s.link != null AND s.sponsor.id = :sponsorId")
+	int linkedSponsorshipsCount(int sponsorId);
 
 	//Sponsorship amount metrics
 
-	@Query("SELECT s.amount.currency, avg(s.amount.amount) FROM Sponsorship s GROUP BY s.amount.currency")
-	List<Object[]> averageAmountByCurrencyRaw();
+	@Query("SELECT s.amount.currency, avg(s.amount.amount) FROM Sponsorship s WHERE s.sponsor.id = :sponsorId GROUP BY s.amount.currency")
+	List<Object[]> averageAmountByCurrencyRaw(int sponsorId);
 
-	default Map<String, Money> averageAmountByCurrency() {
-		List<Object[]> raw = this.averageAmountByCurrencyRaw();
+	default Map<String, Money> averageAmountByCurrency(final int sponsorId) {
+		List<Object[]> raw = this.averageAmountByCurrencyRaw(sponsorId);
 		return this.convertObjectListToCurrencyMap(raw);
 	}
 
-	@Query("SELECT s.amount.currency, sqrt( avg(s.amount.amount*s.amount.amount) - avg(s.amount.amount)*avg(s.amount.amount) ) FROM Sponsorship s GROUP BY s.amount.currency")
-	List<Object[]> amountDeviationByCurrencyRaw();
+	@Query("SELECT s.amount.currency, sqrt( avg(s.amount.amount*s.amount.amount) - avg(s.amount.amount)*avg(s.amount.amount) ) FROM Sponsorship s WHERE s.sponsor.id = :sponsorId GROUP BY s.amount.currency")
+	List<Object[]> amountDeviationByCurrencyRaw(int sponsorId);
 
-	default Map<String, Money> amountDeviationByCurrency() {
-		List<Object[]> raw = this.amountDeviationByCurrencyRaw();
+	default Map<String, Money> amountDeviationByCurrency(final int sponsorId) {
+		List<Object[]> raw = this.amountDeviationByCurrencyRaw(sponsorId);
 		return this.convertObjectListToCurrencyMap(raw);
 	}
 
-	@Query("SELECT s.amount.currency, min(s.amount.amount) FROM Sponsorship s GROUP BY s.amount.currency")
-	List<Object[]> minAmountByCurrencyRaw();
+	@Query("SELECT s.amount.currency, min(s.amount.amount) FROM Sponsorship s WHERE s.sponsor.id = :sponsorId GROUP BY s.amount.currency")
+	List<Object[]> minAmountByCurrencyRaw(int sponsorId);
 
-	default Map<String, Money> minAmountByCurrency() {
-		List<Object[]> raw = this.minAmountByCurrencyRaw();
+	default Map<String, Money> minAmountByCurrency(final int sponsorId) {
+		List<Object[]> raw = this.minAmountByCurrencyRaw(sponsorId);
 		return this.convertObjectListToCurrencyMap(raw);
 	}
 
-	@Query("SELECT s.amount.currency, max(s.amount.amount) FROM Sponsorship s GROUP BY s.amount.currency")
-	List<Object[]> maxAmountByCurrencyRaw();
+	@Query("SELECT s.amount.currency, max(s.amount.amount) FROM Sponsorship s WHERE s.sponsor.id = :sponsorId GROUP BY s.amount.currency")
+	List<Object[]> maxAmountByCurrencyRaw(int sponsorId);
 
-	default Map<String, Money> maxAmountByCurrency() {
-		List<Object[]> raw = this.maxAmountByCurrencyRaw();
+	default Map<String, Money> maxAmountByCurrency(final int sponsorId) {
+		List<Object[]> raw = this.maxAmountByCurrencyRaw(sponsorId);
 		return this.convertObjectListToCurrencyMap(raw);
 	} //Invoice quantity metrics
 
-	@Query("SELECT i.quantity.currency, avg(i.quantity.amount) FROM Invoice i GROUP BY i.quantity.currency")
-	List<Object[]> averageQuantityByCurrencyRaw();
+	@Query("SELECT i.quantity.currency, avg(i.quantity.amount) FROM Invoice i WHERE i.sponsorship.sponsor.id = :sponsorId GROUP BY i.quantity.currency")
+	List<Object[]> averageQuantityByCurrencyRaw(int sponsorId);
 
-	default Map<String, Money> averageQuantityByCurrency() {
-		List<Object[]> raw = this.averageQuantityByCurrencyRaw();
+	default Map<String, Money> averageQuantityByCurrency(final int sponsorId) {
+		List<Object[]> raw = this.averageQuantityByCurrencyRaw(sponsorId);
 		return this.convertObjectListToCurrencyMap(raw);
 	}
 
-	@Query("SELECT i.quantity.currency, sqrt( avg(i.quantity.amount*i.quantity.amount) - avg(i.quantity.amount)*avg(i.quantity.amount) ) FROM Invoice i GROUP BY i.quantity.currency")
-	List<Object[]> quantityDeviationByCurrencyRaw();
+	@Query("SELECT i.quantity.currency, sqrt( avg(i.quantity.amount*i.quantity.amount) - avg(i.quantity.amount)*avg(i.quantity.amount) ) FROM Invoice i WHERE i.sponsorship.sponsor.id = :sponsorId GROUP BY i.quantity.currency")
+	List<Object[]> quantityDeviationByCurrencyRaw(int sponsorId);
 
-	default Map<String, Money> quantityDeviationByCurrency() {
-		List<Object[]> raw = this.quantityDeviationByCurrencyRaw();
+	default Map<String, Money> quantityDeviationByCurrency(final int sponsorId) {
+		List<Object[]> raw = this.quantityDeviationByCurrencyRaw(sponsorId);
 		return this.convertObjectListToCurrencyMap(raw);
 	}
 
-	@Query("SELECT i.quantity.currency, min(i.quantity.amount) FROM Invoice i GROUP BY i.quantity.currency")
-	List<Object[]> minQuantityByCurrencyRaw();
+	@Query("SELECT i.quantity.currency, min(i.quantity.amount) FROM Invoice i WHERE i.sponsorship.sponsor.id = :sponsorId GROUP BY i.quantity.currency")
+	List<Object[]> minQuantityByCurrencyRaw(int sponsorId);
 
-	default Map<String, Money> minQuantityByCurrency() {
-		List<Object[]> raw = this.minQuantityByCurrencyRaw();
+	default Map<String, Money> minQuantityByCurrency(final int sponsorId) {
+		List<Object[]> raw = this.minQuantityByCurrencyRaw(sponsorId);
 		return this.convertObjectListToCurrencyMap(raw);
 	}
 
-	@Query("SELECT i.quantity.currency, max(i.quantity.amount) FROM Invoice i GROUP BY i.quantity.currency")
-	List<Object[]> maxQuantityByCurrencyRaw();
+	@Query("SELECT i.quantity.currency, max(i.quantity.amount) FROM Invoice i WHERE i.sponsorship.sponsor.id = :sponsorId GROUP BY i.quantity.currency")
+	List<Object[]> maxQuantityByCurrencyRaw(int sponsorId);
 
-	default Map<String, Money> maxQuantityByCurrency() {
-		List<Object[]> raw = this.maxQuantityByCurrencyRaw();
+	default Map<String, Money> maxQuantityByCurrency(final int sponsorId) {
+		List<Object[]> raw = this.maxQuantityByCurrencyRaw(sponsorId);
 		return this.convertObjectListToCurrencyMap(raw);
 	}
 

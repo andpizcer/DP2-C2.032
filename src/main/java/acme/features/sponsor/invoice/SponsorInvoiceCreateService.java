@@ -83,7 +83,7 @@ public class SponsorInvoiceCreateService extends AbstractService<Sponsor, Invoic
 
 		if (!super.getBuffer().getErrors().hasErrors("dueDate") && object.getDueDate() != null) {
 			condition = MomentHelper.isAfter(object.getDueDate(), object.getRegistrationTime());
-			super.state(condition, "dueDate", "sponsor.sponsorship.form.error.dueDateAfterRegistartion");
+			super.state(condition, "dueDate", "sponsor.invoice.form.error.dueDateAfterRegistartion");
 		}
 		if (!super.getBuffer().getErrors().hasErrors("dueDate") && object.getDueDate() != null) {
 			condition = MomentHelper.isLongEnough(object.getRegistrationTime(), object.getDueDate(), 30, ChronoUnit.DAYS);
@@ -97,7 +97,7 @@ public class SponsorInvoiceCreateService extends AbstractService<Sponsor, Invoic
 		if (!super.getBuffer().getErrors().hasErrors("quantity") && object.getSponsorship() != null && object.getQuantity() != null) {
 			String sponsorshipCurrency = object.getSponsorship().getAmount().getCurrency();
 			condition = object.getQuantity().getCurrency().equals(sponsorshipCurrency);
-			super.state(condition, "quantity", "sponsor.sponsorship.form.error.differentCurrency");
+			super.state(condition, "quantity", "sponsor.invoice.form.error.differentCurrency");
 		}
 
 		if (!super.getBuffer().getErrors().hasErrors("code")) {
@@ -105,7 +105,7 @@ public class SponsorInvoiceCreateService extends AbstractService<Sponsor, Invoic
 
 			existingInvoice = this.repository.findOneInvoiceByCode(object.getCode());
 			condition = existingInvoice == null;
-			super.state(condition, "code", "sponsor.sponsorship.form.error.duplicateCode");
+			super.state(condition, "code", "sponsor.invoice.form.error.duplicateCode");
 		}
 	}
 

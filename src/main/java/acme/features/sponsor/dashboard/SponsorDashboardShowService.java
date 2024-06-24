@@ -38,16 +38,18 @@ public class SponsorDashboardShowService extends AbstractService<Sponsor, Sponso
 		Map<String, Money> minQuantityByCurrency;
 		Map<String, Money> maxQuantityByCurrency;
 
-		lowTaxInvoices = this.repository.lowTaxInvoicesCount();
-		linkedSponsorships = this.repository.linkedSponsorshipsCount();
-		averageAmountByCurrency = this.repository.averageAmountByCurrency();
-		amountDeviationByCurrency = this.repository.amountDeviationByCurrency();
-		minAmountByCurrency = this.repository.minAmountByCurrency();
-		maxAmountByCurrency = this.repository.maxAmountByCurrency();
-		averageQuantityByCurrency = this.repository.averageQuantityByCurrency();
-		quantityDeviationByCurrency = this.repository.quantityDeviationByCurrency();
-		minQuantityByCurrency = this.repository.minQuantityByCurrency();
-		maxQuantityByCurrency = this.repository.maxQuantityByCurrency();
+		int sponsorId = super.getRequest().getPrincipal().getActiveRoleId();
+
+		lowTaxInvoices = this.repository.lowTaxInvoicesCount(sponsorId);
+		linkedSponsorships = this.repository.linkedSponsorshipsCount(sponsorId);
+		averageAmountByCurrency = this.repository.averageAmountByCurrency(sponsorId);
+		amountDeviationByCurrency = this.repository.amountDeviationByCurrency(sponsorId);
+		minAmountByCurrency = this.repository.minAmountByCurrency(sponsorId);
+		maxAmountByCurrency = this.repository.maxAmountByCurrency(sponsorId);
+		averageQuantityByCurrency = this.repository.averageQuantityByCurrency(sponsorId);
+		quantityDeviationByCurrency = this.repository.quantityDeviationByCurrency(sponsorId);
+		minQuantityByCurrency = this.repository.minQuantityByCurrency(sponsorId);
+		maxQuantityByCurrency = this.repository.maxQuantityByCurrency(sponsorId);
 
 		dashboard = new SponsorDashboard();
 		dashboard.setLowTaxInvoices(lowTaxInvoices);

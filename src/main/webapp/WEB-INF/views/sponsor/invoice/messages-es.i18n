@@ -21,3 +21,9 @@ sponsor.invoice.form.button.create = Crear
 sponsor.invoice.form.button.delete = Borrar
 sponsor.invoice.form.button.update = Actualizar
 sponsor.invoice.form.button.publish = Publicar
+
+sponsor.invoice.form.error.dueDateAfterRegistartion = La fecha de vencimineto debe ser posterior a la fecha de registro
+sponsor.invoice.form.error.oneMonthLong = La fecha de vencimiento debe de tener al menos un mes de diferencia con la fecha de registro
+sponsor.invoice.form.error.positiveNotNoughtQuantity = La cantidad debe de ser mayor a cero
+sponsor.invoice.form.error.differentCurrency = Las facturas deben usar la misma divisa que sus patrocinios
+sponsor.invoice.form.error.duplicateCode = Ya existe una factura con este código

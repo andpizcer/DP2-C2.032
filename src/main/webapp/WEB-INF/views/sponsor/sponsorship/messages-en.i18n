@@ -25,8 +25,12 @@ sponsor.sponsorship.form.button.delete = Delete
 sponsor.sponsorship.form.button.update = Update
 sponsor.sponsorship.form.button.publish = Publish
 
+sponsor.sponsorship.form.error.endDateAfterStartDate = End date must be after start date 
 sponsor.sponsorship.form.error.oneMonthLong = Duration must be at least one month long
 sponsor.sponsorship.form.error.afterMoment = The sponsorship must start after moment
 sponsor.sponsorship.form.error.positiveAmount = The amount must be positive
+sponsor.sponsorship.form.error.duplicateCode = A sponsorship with this code already exists
+sponsor.sponsorship.form.error.differentCurrency = Sponsorships must have the same currency as their invoices 
 sponsor.sponsorship.form.error.alreadyPublished = This sponsorship has already been published and can't be changed
 sponsor.sponsorship.form.error.unexpectedTotalAmount = The amount must match the sum of total amounts of the invoices
+sponsor.sponsorship.form.error.unpublishedInvoices = This sponsorship has invoices in draft-mode. All invoices must be published

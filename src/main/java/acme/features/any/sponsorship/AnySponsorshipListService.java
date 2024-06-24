@@ -44,8 +44,6 @@ public class AnySponsorshipListService extends AbstractService<Any, Sponsorship>
 		dataset = super.unbind(object, "code", "amount", "startDate", "endDate");
 		locale = super.getRequest().getLocale();
 
-		dataset.put("published", BooleanLocalizeHelper.localizeBoolean(locale, !object.isDraftMode()));
-
 		super.getResponse().addData(dataset);
 	}
 
