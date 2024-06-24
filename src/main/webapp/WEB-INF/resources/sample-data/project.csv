@@ -1,9 +1,9 @@
 key,code,title,abstract-info,cost,link,key:manager,indication,published
 project-01,PRJ-0001,A,A,EUR 0.00,null,manager-01,false,true
 project-02,PRJ-0002,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,A,EUR 0.00,null,manager-01,false,true
-project-03,PRJ-0003,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,A,EUR 0.00,null,manager-01,false,false
-project-04,PRJ-0004,aaaaaaaaaaaaaaaaaaaa,A,EUR 0.00,null,manager-01,false,false
-project-05,PRJ-0005,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,A,EUR 0.00,null,manager-01,false,false
+project-03,PRJ-0003,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,A,EUR 0.00,null,manager-01,false,false
+project-04,PRJ-0004,aaaaaaaaaaaaaaaaaa,A,EUR 0.00,null,manager-01,false,false
+project-05,PRJ-0005,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,A,EUR 0.00,null,manager-01,false,false
 project-06,PRJ-0006,A,A,EUR 0.00,null,manager-01,false,false
 project-07,PRJ-0007,A,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,EUR 0.00,null,manager-01,false,false
 project-08,PRJ-0008,A,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,EUR 0.00,null,manager-01,false,false
@@ -24,10 +24,10 @@ project-22,PRJ-0022,A,A,"EUR 9,999,999,999.75",null,manager-01,false,false
 project-23,PRJ-0023,A,A,"EUR 9,999,999,999.99",null,manager-01,false,false
 project-24,PRJ-0024,A,A,EUR 0.00,https://www.google.com/,manager-01,false,false
 project-25,PRJ-0025,A,A,EUR 0.00,null,manager-01,true,false
-project-26,PRJ-0026,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,A,EUR 0.00,null,manager-02,false,false
-project-27,PRJ-0027,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,A,EUR 0.00,null,manager-02,false,false
-project-28,PRJ-0028,aaaaaaaaaaaaaaaaaaaa,A,EUR 0.00,null,manager-02,false,false
-project-29,PRJ-0029,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,A,EUR 0.00,null,manager-02,false,false
+project-26,PRJ-0026,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,A,EUR 0.00,null,manager-02,false,false
+project-27,PRJ-0027,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,A,EUR 0.00,null,manager-02,false,false
+project-28,PRJ-0028,aaaaaaaaaaaaaaaaaa,A,EUR 0.00,null,manager-02,false,false
+project-29,PRJ-0029,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,A,EUR 0.00,null,manager-02,false,false
 project-30,PRJ-0030,A,A,EUR 0.00,null,manager-01,false,false
 project-31,PRJ-0031,A,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,EUR 0.00,null,manager-02,false,false
 project-32,PRJ-0032,A,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,EUR 0.00,null,manager-02,false,false
