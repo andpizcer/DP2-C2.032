@@ -72,16 +72,21 @@ public class ManagerCreateAssignmentService extends AbstractService<Manager, Ass
 	@Override
 	public void validate(final Assignment object) {
 		assert object != null;
+		Project project;
+		UserStory userStory;
+		Assignment existing;
 
-		super.state(object.getProject() != null, "*", "manager.assignment.form.error.empty");
+		project = object.getProject();
+		userStory = object.getUserStory();
 
-		if (!super.getBuffer().getErrors().hasErrors("*")) {
-			Collection<Assignment> existing = this.repository.findAssignmentByUserStoryId(object.getUserStory().getId());
-			boolean status = true;
-			for (Assignment a : existing)
-				if (a.getProject().getId() == object.getProject().getId())
-					status = false;
-			super.state(status, "*", "manager.assignment.form.error.already-linked");
+		super.state(project != null, "projectId", "manager.assignment.form.error.empty");
+
+		if (!super.getBuffer().getErrors().hasErrors("projectId")) {
+			existing = this.repository.findAssingmentByProjectIdAndUserStoryId(project.getId(), userStory.getId());
+
+			super.state(!project.isPublished(), "*", "manager.assignment.form.error.published");
+			super.state(project.getManager().equals(userStory.getManager()), "*", "manager.assignment.form.error.manager");
+			super.state(existing == null, "*", "manager.assignment.form.error.already-linked");
 		}
 
 	}
@@ -107,7 +112,7 @@ public class ManagerCreateAssignmentService extends AbstractService<Manager, Ass
 		userStoryId = super.getRequest().getData("userStoryId", int.class);
 		userStory = this.repository.findUserStoryById(userStoryId);
 		managerId = super.getRequest().getPrincipal().getActiveRoleId();
-		projects = this.repository.findUnpublishedProjectsOfManagerUnlinkedToUserStory(managerId, userStoryId);
+		projects = this.repository.findUnpublishedProjectsOfManager(managerId);
 		choices = SelectChoices.from(projects, "code", object.getProject());
 
 		dataset = super.unbind(object, "project", "userStory");

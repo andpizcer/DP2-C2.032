@@ -18,7 +18,8 @@ master.menu.sign-out = Salir
 # master.menu.any #######################################################
 
 master.menu.any = Cualquiera
-master.menu.any.sponsorship.list = Listado de patrocinios
+master.menu.any.sponsorship.list = Listado de patrocinios publicados
+master.menu.any.projects= Listado de proyectos publicados
 
 # master.menu.anonymous #######################################################
 
@@ -72,7 +73,8 @@ master.menu.user-account.consumer = Datos de consumidor
 master.menu.user-account.become-consumer = Hazte consumidor
 master.menu.user-account.sponsor = Datos de patrocinador
 master.menu.user-account.become-sponsor = Haste patrocinador
-
+master.menu.user-account.manager = Datos de manager
+master.menu.user-account.become-manager = Hazte manager
 
 # master.menu.developer #######################################################
 
