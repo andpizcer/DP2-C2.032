@@ -1,0 +1,36 @@
+any.sponsorship.list.title = Listing of sponsorships
+
+any.sponsorship.list.label.code = Code
+any.sponsorship.list.label.published = Published
+any.sponsorship.list.label.amount = Amount
+any.sponsorship.list.label.startDate = Start Date
+any.sponsorship.list.label.endDate = End Date
+any.sponsorship.list.buttom.create = Create
+
+any.sponsorship.form.title = Sponsorship form
+
+any.sponsorship.form.label.code = Code:
+any.sponsorship.form.label.amount = Amount:
+any.sponsorship.form.label.startDate = Start Date:
+any.sponsorship.form.label.endDate = End Date:
+any.sponsorship.form.label.moment = Moment
+any.sponsorship.form.label.type = Type
+any.sponsorship.form.label.email = Email: (Optional)
+any.sponsorship.form.label.link = Link: (Optional)
+any.sponsorship.form.label.project = Project
+
+any.sponsorship.form.button.create = Create
+any.sponsorship.form.button.invoices = Invoices 
+any.sponsorship.form.button.delete = Delete
+any.sponsorship.form.button.update = Update
+any.sponsorship.form.button.publish = Publish
+
+any.sponsorship.form.error.endDateAfterStartDate = End date must be after start date 
+any.sponsorship.form.error.oneMonthLong = Duration must be at least one month long
+any.sponsorship.form.error.afterMoment = The sponsorship must start after moment
+any.sponsorship.form.error.positiveAmount = The amount must be positive
+any.sponsorship.form.error.duplicateCode = A sponsorship with this code already exists
+any.sponsorship.form.error.differentCurrency = Sponsorships must have the same currency as their invoices 
+any.sponsorship.form.error.alreadyPublished = This sponsorship has already been published and can't be changed
+any.sponsorship.form.error.unexpectedTotalAmount = The amount must match the sum of total amounts of the invoices
+any.sponsorship.form.error.unpublishedInvoices = This sponsorship has invoices in draft-mode. All invoices must be published

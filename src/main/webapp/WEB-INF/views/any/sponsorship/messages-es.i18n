@@ -1,0 +1,36 @@
+sponsor.sponsorship.list.title = Listado de patrocinios
+
+sponsor.sponsorship.list.label.code = Código
+sponsor.sponsorship.list.label.published = Publicado
+sponsor.sponsorship.list.label.amount = Capital
+sponsor.sponsorship.list.label.startDate = Fecha de inicio
+sponsor.sponsorship.list.label.endDate = Fecha de fin
+sponsor.sponsorship.list.buttom.create = Crear
+
+sponsor.sponsorship.form.title = Detalles de patrocinio
+
+sponsor.sponsorship.form.label.code = Código:
+sponsor.sponsorship.form.label.amount = Capital:
+sponsor.sponsorship.form.label.startDate = Fecha de inicio:
+sponsor.sponsorship.form.label.endDate = Fecha de fin:
+sponsor.sponsorship.form.label.moment = Momento:
+sponsor.sponsorship.form.label.type = Categoría:
+sponsor.sponsorship.form.label.email = Correo electrónico: (Opcional)
+sponsor.sponsorship.form.label.link = Enlance: (Opcional)
+sponsor.sponsorship.form.label.project = Proyecto
+
+sponsor.sponsorship.form.button.create = Crear
+sponsor.sponsorship.form.button.invoices = Facturas
+sponsor.sponsorship.form.button.delete = Borrar
+sponsor.sponsorship.form.button.update = Actualizar
+sponsor.sponsorship.form.button.publish = Publicar
+
+sponsor.sponsorship.form.error.endDateAfterStartDate = La fecha de fin debe ser posterior a la fecha de inicio
+sponsor.sponsorship.form.error.oneMonthLong = La duración debe ser de al menos un mes
+sponsor.sponsorship.form.error.afterMoment = La fecha de inicio debe ser posterior al momento
+sponsor.sponsorship.form.error.positiveAmount = El capital debe ser positivo
+sponsor.sponsorship.form.error.duplicateCode = Ya existe un patrocinio con este código
+sponsor.sponsorship.form.error.differentCurrency = Los patrocinios deben usar la misma divisa que sus facturas
+sponsor.sponsorship.form.error.alreadyPublished = Este patricinio ya ha sido publicado y no puede ser cambiado
+sponsor.sponsorship.form.error.unexpectedTotalAmount = El capital debe ser igual a la suma de capitales totales de las facturas
+sponsor.sponsorship.form.error.unpublishedInvoices = Este petrocinio tiene facturas sin publicar. Todas las facturas deben estar publicadas
