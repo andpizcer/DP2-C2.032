@@ -73,8 +73,18 @@ public class ManagerAssignmentDeleteService extends AbstractService<Manager, Ass
 	@Override
 	public void validate(final Assignment object) {
 		assert object != null;
+		Project project;
+		UserStory userStory;
 
-		super.state(object.getProject() != null, "*", "manager.assignment.form.error.empty");
+		project = object.getProject();
+		userStory = object.getUserStory();
+
+		super.state(project != null, "projectId", "manager.assignment.form.error.empty");
+
+		if (!super.getBuffer().getErrors().hasErrors("projectId")) {
+			super.state(!project.isPublished(), "*", "manager.assignment.form.error.published");
+			super.state(project.getManager().equals(userStory.getManager()), "*", "manager.assignment.form.error.manager");
+		}
 	}
 
 	@Override

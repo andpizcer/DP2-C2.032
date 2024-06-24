@@ -20,3 +20,4 @@ manager.assignment.form.error.published=Proyecto ya publicado
 manager.assignment.form.error.manager=Debes ser propietario de la historia de usuario y del proyecto
 manager.assignment.form.error.already-linked=Ya has asociado esta historia de usuario al proyecto
 manager.assignment.form.error.empty=No se ha seleccionado proyecto
+manager.assignment.form.error.published=El proyecto ya se encuentra publicado

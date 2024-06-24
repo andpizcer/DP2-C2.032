@@ -20,3 +20,4 @@ manager.assignment.form.error.published=Project already published
 manager.assignment.form.error.manager=Must be owner of the project and user story
 manager.assignment.form.error.already-linked=You have already linked this user story to the project
 manager.assignment.form.error.empty=No project selected
+manager.assignment.form.error.published=Project is already published
