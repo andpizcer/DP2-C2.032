@@ -81,10 +81,8 @@ public class ManagerAssignmentDeleteService extends AbstractService<Manager, Ass
 
 		super.state(project != null, "projectId", "manager.assignment.form.error.empty");
 
-		if (!super.getBuffer().getErrors().hasErrors("projectId")) {
+		if (!super.getBuffer().getErrors().hasErrors("projectId"))
 			super.state(!project.isPublished(), "*", "manager.assignment.form.error.published");
-			super.state(project.getManager().equals(userStory.getManager()), "*", "manager.assignment.form.error.manager");
-		}
 	}
 
 	@Override
