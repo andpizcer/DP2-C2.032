@@ -65,8 +65,7 @@ public class ManagerProjectDeleteService extends AbstractService<Manager, Projec
 
 	@Override
 	public void perform(final Project object) {
-		//Eliminamos la entidad intermedia Assignment
-		//Eliminamos el proyecto
+
 		assert object != null;
 		int projectId;
 		projectId = super.getRequest().getData("id", int.class);
