@@ -34,3 +34,4 @@ sponsor.sponsorship.form.error.differentCurrency = Sponsorships must have the sa
 sponsor.sponsorship.form.error.alreadyPublished = This sponsorship has already been published and can't be changed
 sponsor.sponsorship.form.error.unexpectedTotalAmount = The amount must match the sum of total amounts of the invoices
 sponsor.sponsorship.form.error.unpublishedInvoices = This sponsorship has invoices in draft-mode. All invoices must be published
+sponsorship.sponsor.form.error.publishedInvoices = This sponsorship has published invoices. You can't delete sponsorships with published invoices

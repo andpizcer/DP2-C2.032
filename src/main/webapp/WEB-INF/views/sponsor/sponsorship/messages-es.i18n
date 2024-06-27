@@ -33,4 +33,5 @@ any.sponsorship.form.error.duplicateCode = Ya existe un patrocinio con este cód
 any.sponsorship.form.error.differentCurrency = Los patrocinios deben usar la misma divisa que sus facturas
 any.sponsorship.form.error.alreadyPublished = Este patricinio ya ha sido publicado y no puede ser cambiado
 any.sponsorship.form.error.unexpectedTotalAmount = El capital debe ser igual a la suma de capitales totales de las facturas
-any.sponsorship.form.error.unpublishedInvoices = Este petrocinio tiene facturas sin publicar. Todas las facturas deben estar publicadas
+any.sponsorship.form.error.unpublishedInvoices = Este patrocinio tiene facturas sin publicar. Todas las facturas deben estar publicadas
+sponsorship.sponsor.form.error.publishedInvoices = Este patrocinio tiene facturas publicadas. No puede borrar patrocinios con facturas publicadas
