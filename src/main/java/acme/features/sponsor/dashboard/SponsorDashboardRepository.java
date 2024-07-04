@@ -30,7 +30,7 @@ public interface SponsorDashboardRepository extends AbstractRepository {
 		return this.convertObjectListToCurrencyMap(raw);
 	}
 
-	@Query("SELECT s.amount.currency, sqrt( avg(s.amount.amount*s.amount.amount) - avg(s.amount.amount)*avg(s.amount.amount) ) FROM Sponsorship s WHERE s.sponsor.id = :sponsorId GROUP BY s.amount.currency")
+	@Query("SELECT s.amount.currency, stddev(s.amount.amount) FROM Sponsorship s WHERE s.sponsor.id = :sponsorId GROUP BY s.amount.currency")
 	List<Object[]> amountDeviationByCurrencyRaw(int sponsorId);
 
 	default Map<String, Money> amountDeviationByCurrency(final int sponsorId) {
@@ -62,7 +62,7 @@ public interface SponsorDashboardRepository extends AbstractRepository {
 		return this.convertObjectListToCurrencyMap(raw);
 	}
 
-	@Query("SELECT i.quantity.currency, sqrt( avg(i.quantity.amount*i.quantity.amount) - avg(i.quantity.amount)*avg(i.quantity.amount) ) FROM Invoice i WHERE i.sponsorship.sponsor.id = :sponsorId GROUP BY i.quantity.currency")
+	@Query("SELECT i.quantity.currency, stddev(i.quantity.amount) FROM Invoice i WHERE i.sponsorship.sponsor.id = :sponsorId GROUP BY i.quantity.currency")
 	List<Object[]> quantityDeviationByCurrencyRaw(int sponsorId);
 
 	default Map<String, Money> quantityDeviationByCurrency(final int sponsorId) {
