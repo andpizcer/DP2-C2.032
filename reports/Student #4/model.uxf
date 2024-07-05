@@ -150,25 +150,6 @@ m2=0..n
     <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
   </element>
   <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>189</x>
-      <y>162</y>
-      <w>108</w>
-      <h>54</h>
-    </coordinates>
-    <panel_attributes>bg=green
-&lt;&lt;Entity&gt;&gt;
-AbstractEntity
---
-
-
-
-
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>Relation</id>
     <coordinates>
       <x>720</x>
@@ -233,5 +214,24 @@ one month
     <panel_attributes>lt=..
 </panel_attributes>
     <additional_attributes>90.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>189</x>
+      <y>162</y>
+      <w>108</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>bg=green
+&lt;&lt;Entity&gt;&gt;
+AbstractRole
+--
+
+
+
+
+</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
